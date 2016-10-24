@@ -6,25 +6,14 @@
         "symfony/http-foundation": "^2.7",
         "phpdocumentor/reflection-docblock": "^2.0.4",
         "fzaninotto/faker": "^1.6",
-        "phpfastcache/phpfastcache": "^5.0",
+        "phpFastCache/phpFastCache": "^5.0",
         "ifsnop/mysqldump-php": "dev-master",
-        "psy/psysh": "@stable",
-        "enyo/dropzone": "@stable",
-        "ezyang/htmlpurifier": "^4.9",
-        "moneyphp/money": "^3.0",
-        "tecnickcom/tcpdf": "^6.2",
-        "memio/memio": "^2.0"
+        "pear/html_common": "dev-trunk"
     },
     "scripts": {
         "post-install-cmd": [
-            "@composer -d\"modules/CRM/Mail\" install",
-            "@composer -d\"modules/Libs/PHPExcel\" install",
-            "@composer -d\"vendor/tecnickcom/tcpdf\" install",
-            "@composer -d\"vendor/tecnickcom/tcpdf\" dump-autoload"
-        ],
-      "post-update-cmd": [
-        "@composer -d\"vendor/tecnickcom/tcpdf\" dump-autoload"
-      ]
+            "@composer -d='modules/CRM/Mail' install"
+        ]
     },
     "autoload": {
         "psr-4": {
@@ -33,10 +22,10 @@
         },
         "psr-0": {
             "": "modules/"
-        }
+        },
+        "classmap": ["libs/quickform"]
     },
     "require-dev": {
-        "codeception/codeception": "*",
-        "codeception/aspect-mock": "*"
+        "codeception/codeception": "*"
     }
 }
