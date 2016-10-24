@@ -4,7 +4,12 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "5a4d57655b39a0b7f8c727580931f7a3",
+=======
+    "hash": "a7b8344f76915bd828db753f458c664a",
+    "content-hash": "61bd2774b41c4edb804ccafa682d2422",
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -268,8 +273,123 @@
             "time": "2014-11-20T16:49:30+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "jakub-onderka/php-console-color",
             "version": "v0.2",
+=======
+            "name": "pear/html_common",
+            "version": "dev-trunk",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/HTML_Common.git",
+                "reference": "403cbf3aa1c2d41f9f5f629ecb646ef665380e8c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/HTML_Common/zipball/403cbf3aa1c2d41f9f5f629ecb646ef665380e8c",
+                "reference": "403cbf3aa1c2d41f9f5f629ecb646ef665380e8c",
+                "shasum": ""
+            },
+            "require": {
+                "pear/pear_exception": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "./"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "PHP License"
+            ],
+            "authors": [
+                {
+                    "name": "Alexey Borzov",
+                    "email": "avb@php.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Klaus Guenther",
+                    "email": "thesaur@php.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Bertrand Mansion",
+                    "email": "bmansion@mamasam.com",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Adam Daniel",
+                    "email": "adaniel1@eesus.jnj.com",
+                    "role": "Lead"
+                }
+            ],
+            "description": "More info available on: http://pear.php.net/package/HTML_Common",
+            "time": "2014-02-21 11:50:33"
+        },
+        {
+            "name": "pear/pear_exception",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/PEAR_Exception.git",
+                "reference": "8c18719fdae000b690e3912be401c76e406dd13b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/PEAR_Exception/zipball/8c18719fdae000b690e3912be401c76e406dd13b",
+                "reference": "8c18719fdae000b690e3912be401c76e406dd13b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=4.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "class",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "PEAR": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "."
+            ],
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Helgi Thormar",
+                    "email": "dufuz@php.net"
+                },
+                {
+                    "name": "Greg Beaver",
+                    "email": "cellog@php.net"
+                }
+            ],
+            "description": "The PEAR Exception base class.",
+            "homepage": "https://github.com/pear/PEAR_Exception",
+            "keywords": [
+                "exception"
+            ],
+            "time": "2015-02-10 20:07:52"
+        },
+        {
+            "name": "phpdocumentor/reflection-docblock",
+            "version": "2.0.4",
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
             "source": {
                 "type": "git",
                 "url": "https://github.com/JakubOnderka/PHP-Console-Color.git",
@@ -2444,6 +2564,7 @@
             "time": "2019-10-21T16:45:58+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "doctrine/lexer",
             "version": "1.2.0",
             "source": {
@@ -2455,6 +2576,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/lexer/zipball/5242d66dbeb21a30dd8a3e66bf7a73b66e05e1f6",
                 "reference": "5242d66dbeb21a30dd8a3e66bf7a73b66e05e1f6",
+=======
+            "name": "symfony/console",
+            "version": "v2.8.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "7350016c8abcab897046f1aead2b766b84d3eff8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/7350016c8abcab897046f1aead2b766b84d3eff8",
+                "reference": "7350016c8abcab897046f1aead2b766b84d3eff8",
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
                 "shasum": ""
             },
             "require": {
@@ -2795,11 +2929,17 @@
                     "homepage": "https://github.com/mtdowling"
                 }
             ],
+<<<<<<< HEAD
             "description": "Guzzle promises library",
             "keywords": [
                 "promise"
             ],
             "time": "2016-12-20T10:07:11+00:00"
+=======
+            "description": "Symfony Console Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-10-06 01:43:09"
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
         },
         {
             "name": "guzzlehttp/psr7",
@@ -2873,6 +3013,7 @@
             "time": "2019-07-01T23:21:34+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "hoa/consistency",
             "version": "1.17.05.02",
             "source": {
@@ -2884,6 +3025,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hoaproject/Consistency/zipball/fd7d0adc82410507f332516faf655b6ed22e4c2f",
                 "reference": "fd7d0adc82410507f332516faf655b6ed22e4c2f",
+=======
+            "name": "symfony/http-foundation",
+            "version": "v2.8.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-foundation.git",
+                "reference": "a6e6c34d337f3c74c39b29c5f54d33023de8897c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/a6e6c34d337f3c74c39b29c5f54d33023de8897c",
+                "reference": "a6e6c34d337f3c74c39b29c5f54d33023de8897c",
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
                 "shasum": ""
             },
             "require": {
@@ -2922,6 +3076,7 @@
                     "homepage": "https://hoa-project.net/"
                 }
             ],
+<<<<<<< HEAD
             "description": "The Hoa\\Consistency library.",
             "homepage": "https://hoa-project.net/",
             "keywords": [
@@ -2934,6 +3089,11 @@
                 "library"
             ],
             "time": "2017-05-02T12:18:12+00:00"
+=======
+            "description": "Symfony HttpFoundation Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-10-24 15:52:36"
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
         },
         {
             "name": "hoa/console",
@@ -3122,6 +3282,7 @@
             "time": "2017-01-16T07:53:27+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "hoa/file",
             "version": "1.17.07.11",
             "source": {
@@ -3133,6 +3294,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hoaproject/File/zipball/35cb979b779bc54918d2f9a4e02ed6c7a1fa67ca",
                 "reference": "35cb979b779bc54918d2f9a4e02ed6c7a1fa67ca",
+=======
+            "name": "twig/twig",
+            "version": "v1.27.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "3c6c0033fd3b5679c6e1cb60f4f9766c2b424d97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3c6c0033fd3b5679c6e1cb60f4f9766c2b424d97",
+                "reference": "3c6c0033fd3b5679c6e1cb60f4f9766c2b424d97",
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
                 "shasum": ""
             },
             "require": {
@@ -3148,7 +3322,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "1.x-dev"
+=======
+                    "dev-master": "1.27-dev"
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
                 }
             },
             "autoload": {
@@ -3173,6 +3351,7 @@
             "description": "The Hoa\\File library.",
             "homepage": "https://hoa-project.net/",
             "keywords": [
+<<<<<<< HEAD
                 "Socket",
                 "directory",
                 "file",
@@ -3195,6 +3374,26 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hoaproject/Iterator/zipball/d1120ba09cb4ccd049c86d10058ab94af245f0cc",
                 "reference": "d1120ba09cb4ccd049c86d10058ab94af245f0cc",
+=======
+                "templating"
+            ],
+            "time": "2016-10-25 19:17:17"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "behat/gherkin",
+            "version": "v4.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Behat/Gherkin.git",
+                "reference": "5c14cff4f955b17d20d088dec1bde61c0539ec74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/5c14cff4f955b17d20d088dec1bde61c0539ec74",
+                "reference": "5c14cff4f955b17d20d088dec1bde61c0539ec74",
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
                 "shasum": ""
             },
             "require": {
@@ -3235,6 +3434,7 @@
                 "iterator",
                 "library"
             ],
+<<<<<<< HEAD
             "time": "2017-01-10T10:34:47+00:00"
         },
         {
@@ -3249,6 +3449,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hoaproject/Protocol/zipball/5c2cf972151c45f373230da170ea015deecf19e2",
                 "reference": "5c2cf972151c45f373230da170ea015deecf19e2",
+=======
+            "time": "2016-10-30 11:50:56"
+        },
+        {
+            "name": "codeception/codeception",
+            "version": "2.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Codeception/Codeception.git",
+                "reference": "5fbe312c8138e71458ec1e715b0ce262331ca5a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/5fbe312c8138e71458ec1e715b0ce262331ca5a2",
+                "reference": "5fbe312c8138e71458ec1e715b0ce262331ca5a2",
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
                 "shasum": ""
             },
             "require": {
@@ -3295,7 +3511,11 @@
                 "stream",
                 "wrapper"
             ],
+<<<<<<< HEAD
             "time": "2017-01-14T12:26:10+00:00"
+=======
+            "time": "2016-10-27 00:00:34"
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
         },
         {
             "name": "hoa/stream",
@@ -3943,6 +4163,7 @@
         },
         {
             "name": "phpunit/phpunit",
+<<<<<<< HEAD
             "version": "8.4.3",
             "source": {
                 "type": "git",
@@ -3953,6 +4174,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/67f9e35bffc0dd52d55d565ddbe4230454fd6a4e",
                 "reference": "67f9e35bffc0dd52d55d565ddbe4230454fd6a4e",
+=======
+            "version": "5.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "cd13b23ac5a519a4708e00736c26ee0bb28b2e01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/cd13b23ac5a519a4708e00736c26ee0bb28b2e01",
+                "reference": "cd13b23ac5a519a4708e00736c26ee0bb28b2e01",
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
                 "shasum": ""
             },
             "require": {
@@ -4022,7 +4255,11 @@
                 "testing",
                 "xunit"
             ],
+<<<<<<< HEAD
             "time": "2019-11-06T09:42:23+00:00"
+=======
+            "time": "2016-10-25 07:40:25"
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
         },
         {
             "name": "psr/http-message",
@@ -4731,7 +4968,11 @@
         },
         {
             "name": "symfony/browser-kit",
+<<<<<<< HEAD
             "version": "v4.4.0",
+=======
+            "version": "v3.1.6",
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/browser-kit.git",
@@ -4790,7 +5031,11 @@
         },
         {
             "name": "symfony/css-selector",
+<<<<<<< HEAD
             "version": "v4.4.0",
+=======
+            "version": "v3.1.6",
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -4843,6 +5088,7 @@
         },
         {
             "name": "symfony/dom-crawler",
+<<<<<<< HEAD
             "version": "v4.4.0",
             "source": {
                 "type": "git",
@@ -4853,6 +5099,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/36bbcab9369fc2f583220890efd43bf262d563fd",
                 "reference": "36bbcab9369fc2f583220890efd43bf262d563fd",
+=======
+            "version": "v3.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dom-crawler.git",
+                "reference": "59eee3c76eb89f21857798620ebdad7a05ad14f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/59eee3c76eb89f21857798620ebdad7a05ad14f4",
+                "reference": "59eee3c76eb89f21857798620ebdad7a05ad14f4",
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
                 "shasum": ""
             },
             "require": {
@@ -4900,6 +5158,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2019-10-29T11:38:30+00:00"
         },
         {
@@ -4914,6 +5173,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/ab1c43e17fff802bef0a898f3bc088ac33b8e0e1",
                 "reference": "ab1c43e17fff802bef0a898f3bc088ac33b8e0e1",
+=======
+            "time": "2016-10-18 15:46:07"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "v3.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/event-dispatcher.git",
+                "reference": "28b0832b2553ffb80cabef6a7a812ff1e670c0bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/28b0832b2553ffb80cabef6a7a812ff1e670c0bc",
+                "reference": "28b0832b2553ffb80cabef6a7a812ff1e670c0bc",
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
                 "shasum": ""
             },
             "require": {
@@ -4970,6 +5245,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2019-11-08T22:40:51+00:00"
         },
         {
@@ -5033,6 +5309,13 @@
         {
             "name": "symfony/finder",
             "version": "v4.4.0",
+=======
+            "time": "2016-10-13 06:28:43"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v3.1.6",
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -5130,6 +5413,7 @@
         },
         {
             "name": "symfony/yaml",
+<<<<<<< HEAD
             "version": "v3.3.18",
             "source": {
                 "type": "git",
@@ -5140,6 +5424,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/yaml/zipball/af615970e265543a26ee712c958404eb9b7ac93d",
                 "reference": "af615970e265543a26ee712c958404eb9b7ac93d",
+=======
+            "version": "v3.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "7ff51b06c6c3d5cc6686df69004a42c69df09e27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/7ff51b06c6c3d5cc6686df69004a42c69df09e27",
+                "reference": "7ff51b06c6c3d5cc6686df69004a42c69df09e27",
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
                 "shasum": ""
             },
             "require": {
@@ -5181,6 +5477,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2018-01-20T15:04:53+00:00"
         },
         {
@@ -5222,14 +5519,21 @@
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
             "time": "2019-06-13T22:48:21+00:00"
+=======
+            "time": "2016-10-24 18:41:13"
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "ifsnop/mysqldump-php": 20,
+<<<<<<< HEAD
         "psy/psysh": 0,
         "enyo/dropzone": 0
+=======
+        "pear/html_common": 20
+>>>>>>> 3a5c74f92... Remove quickform from module and use libs/quickform with composer autoload
     },
     "prefer-stable": false,
     "prefer-lowest": false,
