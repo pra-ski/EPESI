@@ -28,10 +28,10 @@
         },
         "psr-0": {
             "": "modules/"
-        }
+        },
+        "classmap": ["libs/quickform"]
     },
     "require-dev": {
-        "codeception/codeception": "*",
-        "codeception/aspect-mock": "*"
+        "codeception/codeception": "*"
     }
 }
