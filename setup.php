@@ -46,6 +46,7 @@ require 'include/module_primitive.php';
 require 'include/module.php';
 require 'include/module_common.php';
 require 'modules/Base/Lang/LangCommon_0.php';
+require 'modules/Libs/QuickForm/requires.php';
 $install_lang_load = isset($langs[$install_lang_code])
     ? $langs[$install_lang_code] : 'en'; // fallback to english
 define('FORCE_LANG_CODE', $install_lang_load);
@@ -416,7 +417,7 @@ function write_config($host, $user, $pass, $dbname, $engine, $other) {
         $url = str_replace('\\', '/', $url);
         $other_conf .= "\n" . 'define(\'EPESI_URL\',\'' . addcslashes($url, '\'\\') . '\');';
     }
-	$c = & fopen(DATA_DIR.'/config.php', 'w');
+	$c = fopen(DATA_DIR.'/config.php', 'w');
 	fwrite($c, '<?php
 /**
  * Config file.

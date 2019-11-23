@@ -27,7 +27,7 @@ vendor
 !modules/CRM/Roundcube/RC/vendor
 
 tests/config.yml
-composer.lock
 .history/
 
 *.lock
+composer.lock
