@@ -8,6 +8,7 @@
  * @package epesi-libs
  * @subpackage QuickForm
  */
+require_once('HTML/QuickForm/select.php');
 
 class HTML_QuickForm_multiselect extends HTML_QuickForm_element
 {

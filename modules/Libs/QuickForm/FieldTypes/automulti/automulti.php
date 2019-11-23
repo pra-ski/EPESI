@@ -8,6 +8,7 @@
  * @package epesi-libs
  * @subpackage QuickForm
  */
+require_once('HTML/QuickForm/select.php');
 require_once('modules/Libs/QuickForm/FieldTypes/autocomplete/autocomplete.php');
 
 class HTML_QuickForm_automulti extends HTML_QuickForm_element {
